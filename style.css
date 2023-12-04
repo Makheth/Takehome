@@ -1,0 +1,71 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 ;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 70%;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #0a0c0e;
+    color: white;
+   
+  }
+  
+  .studentCard {
+    width: 320px;
+    height: 290px;
+    padding: 20px;
+    text-align: center;
+    display: none; 
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 20px auto;
+   
+  }
+  
+  .studentCard img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+   
+  }
+  
+  .studentCard h2 {
+    margin-bottom: 5px;
+    font-size: 20px;
+   
+  }
+  
+  .studentCard p {
+    font-size: 14px;
+    margin-bottom: 0;
+    font-weight: bolder;
+  }
+  

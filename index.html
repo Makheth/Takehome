@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Generate Student Card</title>
+</head>
+<body>
+  <form id="studentCardForm">
+    <h1>Create Student Card</h1>
+    <label for="programOfStudy">Course of Study:</label>
+    <input type="text" id="programOfStudy" name="programOfStudy" class="program" required>
+    <br>
+
+    <label for="yearOfEntry">Year You Entered:</label>
+    <input type="text" id="yearOfEntry" name="yearOfEntry" class="program" required>
+    <br>
+
+    <label for="fullName">Your Complete Name:</label>
+    <input type="text" id="fullName" name="fullName" class="program" required>
+    <br>
+
+    <label for="studentNumber">Your Student Identification Number:</label>
+    <input type="text" id="studentNumber" name="studentNumber" class="program" required>
+    <br>
+
+    <label for="studentPhoto">Upload Your Picture:</label>
+    <input type="file" id="studentPhoto" name="studentPhoto" accept="image/*" class="program" required>
+    <br>
+
+    <button type="button" id="generateCardButton" class="program1">Generate Card</button>
+  </form>
+
+  <article>
+   
+    <div class="studentCard" style="display: none;">
+        <h3>Tswane University of Technology</h3>
+      <img id="studentCardImage" alt="Student Photo">
+      <section>
+        
+        <p>Course of Study: <span id="programOfStudyDisplay"></span></p>
+        <p>Year Entered:<span id="yearOfEntryDisplay"></span></p>
+        <p>Complete Name:<span id="fullNameDisplay"></span></p>
+        <p>Student Number: <span id="studentNumberDisplay"></span></p>
+      </section>
+    </div>
+  </article>
+
+  <script src="main.js"></script>
+</body>
+</html>
